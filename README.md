@@ -1,1 +1,1 @@
-# Diabetes Prediction using Classification algorithms
+# Diabetes Prediction using Classification Models

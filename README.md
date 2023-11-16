@@ -21,6 +21,7 @@ https://github.com/sai-manas/Diabetes_Predictor_ML/assets/106865226/030066b0-c8d
 - **Programming Language:** Python
 - **Libraries:** Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn , Pickle, Warnings
 - **Web Framework:** Flask
+- **Frontend:** HTML, CSS
 - **Deployment:** AWS Elastic Beanstalk, AWS CodePipeline
 
 ## Model Evaluation

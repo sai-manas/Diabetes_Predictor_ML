@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>ML Diabetes API</title>
+  <style>
+    *{
+        background-color: rgba(20, 202, 163, 0.116);
+    }
+    .login{
+        margin: 20px;
+        padding: 50px;
+    }
+    button{
+        padding: 15px;
+        background-color: rgba(62, 180, 180, 0.527);
+        color: black;
+        font-size: larger;
+        border-radius: 45%;
+        font-weight: bold;
+        border-style: none;
+    }
+    form{
+        text-align: center;
+    }
+    input{
+        font-size: 20px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        width: 500px;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+ <div class="login">
+	<h1>Diabetes Prediction using Logistic Regression</h1>
+    <form action="{{ url_for('predict_datapoint')}}" method="post">
+      <input type="text" name="Pregnancies" placeholder="Pregnancies" required="required" /><br>
+    	<input type="text" name="Glucose" placeholder="Glucose" required="required" /><br>
+        <input type="text" name="BloodPressure" placeholder="BloodPressure" required="required" /><br>
+        <input type="text" name="SkinThickness" placeholder="SkinThickness" required="required" /><br>
+        <input type="text" name="Insulin" placeholder="Insulin" required="required" /><br>
+        <input type="text" name="BMI" placeholder="BMI" required="required" /><br>
+        <input type="text" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction" required="required" /><br>
+        <input type="text" name="Age" placeholder="Age" required="required" /><br>
+        <br>
+        
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+<body>
+
+   <br>
+   <br>
+
+
+ </div>
+ {{result}}
+
+</body>
+</html>

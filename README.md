@@ -39,7 +39,7 @@ The application is deployed on AWS Elastic Beanstalk, with continuous integratio
 ### I. Notebook Usage
    - Explore the notebooks to understand the implementation and evaluation of different Classification models [Note Books](https://github.com/sai-manas/Diabetes_Predictor_ML/tree/main/Notebooks).
 
-> This web application can be hosted using Flask or deployed on AWS
+> Hosted this web application using Flask and deployed on AWS
 ### II. Flask
 1. **Clone the GitHub Repository:**
    - Open your terminal or command prompt.
